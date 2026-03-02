@@ -31,6 +31,11 @@ export default function Profile() {
       href: "/profile/personal-information/page",
     },
     {
+      title: "Card Information",
+      icon: "card-outline",
+      href: "/profile/card-information/page",
+    },
+    {
       title: "Cupons",
       icon: "gift-outline",
       href: "/profile/cupons/page",

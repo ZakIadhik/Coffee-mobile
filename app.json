@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CoffeeShop",
-    "slug": "coffee-shop",
+    "slug": "coffeeshop",
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "coffeeshop",
@@ -35,7 +35,9 @@
       [
         "expo-notifications",
         {
-          "sounds": ["./assets/sounds/notification.wav"]
+          "sounds": [
+            "./assets/sounds/notification.wav"
+          ]
         }
       ],
       [
@@ -60,6 +62,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5afed103-cec3-4a16-a1e4-c5c1867c1364"
+      }
+    },
+    "owner": "zakladhiks-organization"
   }
 }
